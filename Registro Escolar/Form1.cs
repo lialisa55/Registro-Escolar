@@ -21,7 +21,19 @@ namespace Registro_Escolar
         {
             Form2 form2 = new Form2();
             form2.Show();
+            this.Hide();
+        }
 
+        private void professorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form3 form3 = new Form3();
+            form3.Show();
+            this.Hide();
+        }
+
+        private void sairToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
