@@ -19,7 +19,7 @@ namespace Registro_Escolar
 
         public void exibir()
         {
-            System.Windows.Forms.MessageBox.Show("Nome: " + nome + "Idade: " + idade + "Curso: " + curso + "Número de matrícula: " + nro_matricula);
+            System.Windows.Forms.MessageBox.Show("Nome: " + nome + " Idade: " + idade + " Curso: " + curso + " Número de matrícula: " + nro_matricula);
         }
     }
     class Professor: Pessoa
