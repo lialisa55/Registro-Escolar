@@ -16,5 +16,24 @@ namespace Registro_Escolar
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Professor objProfessor = new Professor();
+
+            objProfessor.nome = nomeIn.Text;
+            objProfessor.idade = Convert.ToInt32(idadeIn.Text);
+            objProfessor.disciplina = disciplinaIn.Text;
+            objProfessor.salario = Convert.ToInt32(salarioIn.Text);
+            objProfessor.exibir();
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form1 form1 = new Form1();
+            form1.Show();
+            this.Hide();
+        }
     }
 }
